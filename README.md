@@ -1,4 +1,22 @@
-# Sketch Measure
+# Sketch Measure -mini
+
+###精简版Measure  在Utom 大神的基础上微调了HTML 模版样式 
+
+来自视觉设计师的 修改版：
+
+1. 去除头部黑色bar
+2. 隐藏分辨率修改功能
+3. 全中文支持
+4. 本土化支持、全屏预览
+
+![](p3.gif)
+![](p1.png)
+
+
+
+
+以下是原版：
+
 
 Make it fun to create specs for developers and teammates. **Sketch 41.* support**.
 

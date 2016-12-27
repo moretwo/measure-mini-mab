@@ -1,118 +1,112 @@
 {
-    "author": "utom",
-    "commands" : [
+    "author": "utom,moretwo",
+    "commands": [
         {
-            "name": "Toolbar",
+            "name": "0. 工具条",
             "identifier": "commandToolbar",
             "shortcut": "ctrl shift b",
-            "handler" : "commandToolbar",
+            "handler": "commandToolbar",
             "script": "mark.sketchscript"
         },
         {
-            "name": "1. Mark Overlay",
+            "name": "1. 标注区域",
             "identifier": "commandOverlays",
             "shortcut": "ctrl shift 1",
-            "handler" : "commandOverlays",
+            "handler": "commandOverlays",
             "script": "mark.sketchscript"
         },
         {
-            "name": "2. Mark Sizes",
+            "name": "2. 标注尺寸",
             "identifier": "commandSizes",
             "shortcut": "ctrl shift 2",
-            "handler" : "commandSizes",
+            "handler": "commandSizes",
             "script": "mark.sketchscript"
         },
         {
-            "name": "3. Mark Spacings",
+            "name": "3. 标注间隔",
             "identifier": "commandSpacings",
             "shortcut": "ctrl shift 3",
-            "handler" : "commandSpacings",
+            "handler": "commandSpacings",
             "script": "mark.sketchscript"
         },
         {
-            "name": "4. Mark Properties",
+            "name": "4. 标注属性",
             "identifier": "commandProperties",
             "shortcut": "ctrl shift 4",
-            "handler" : "commandProperties",
+            "handler": "commandProperties",
             "script": "mark.sketchscript"
         },
         {
-            "name": "5. Mark Note",
+            "name": "5. 备注信息",
             "identifier": "commandNote",
             "shortcut": "ctrl shift 5",
-            "handler" : "commandNote",
+            "handler": "commandNote",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Spec Export",
+            "name": "6. 规范导出",
             "identifier": "commandExport",
             "shortcut": "ctrl shift e",
-            "handler" : "commandExport",
+            "handler": "commandExport",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Toggle Hidden",
+            "name": "隐藏标注",
             "identifier": "commandHidden",
             "shortcut": "ctrl shift h",
             "handler": "commandHidden",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Toggle Locked",
+            "name": "锁定标注",
             "identifier": "commandLocked",
             "shortcut": "ctrl shift l",
             "handler": "commandLocked",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Clear Marks",
+            "name": "清除标注",
             "identifier": "commandClear",
             "shortcut": "",
             "handler": "commandClear",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Settings",
+            "name": "设置",
             "identifier": "commandSettings",
             "shortcut": "",
             "handler": "commandSettings",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Color Names",
+            "name": "颜色命名",
             "identifier": "commandColor",
             "shortcut": "ctrl shift c",
             "handler": "commandColor",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Make Exportable",
+            "name": "设置切图",
             "identifier": "commandExportable",
             "shortcut": "ctrl shift s",
             "handler": "commandExportable",
             "script": "mark.sketchscript"
         },
         {
-            "name": "Donate",
-            "identifier": "commandDonate",
-            "handler": "commandDonate",
-            "script": "mark.sketchscript"
-        },
-        {
             "name": "Init",
             "identifier": "commandInit",
             "handlers": {
-                    "actions": {
-                        "OpenDocument": "commandInit",
-                    }
-                },
+                "actions": {
+                    "OpenDocument": "commandInit",
+                }
+            },
             "script": "mark.sketchscript"
         }
     ],
-    "menu" : {
-        "isRoot" : false,
-        "shortcut" : "",
-        "items" : [
+    "menu": {
+        "isRoot": false,
+        "shortcut": "",
+        "items": [
             "commandToolbar",
             "-",
             "commandOverlays",
@@ -132,12 +126,12 @@
             "commandSettings",
             "commandDonate"
         ],
-        "title" : "Sketch Measure"
+        "title": "🚀 规范标注"
     },
     "identifier": "com.utom.measure",
-    "homepage": "http://utom.design/measure/",
-    "version": "2.3.5",
-    "description" : "Make it a fun to create spec for developers and teammates",
-    "authorEmail" : "utombox@gmail.com",
-    "name" : "Sketch Measure"
+    "homepage": "https://github.com/moretwo/sketch-measure-mini",
+    "version": "2.3.6",
+    "description": "Make it a fun to create spec for developers and teammates,这是一个精简版",
+    "authorEmail": "moretwo@126.com",
+    "name": "Sketch Measure mini"
 }
