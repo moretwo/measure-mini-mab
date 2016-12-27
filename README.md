@@ -15,7 +15,7 @@
 
 
 
-以下是原版：
+以下是原版： 作者 @Utom
 
 
 Make it fun to create specs for developers and teammates. **Sketch 41.* support**.
@@ -64,4 +64,4 @@ To create your own custom shortcuts, go to Keyboard in your System Preferences a
 ##Contact
 
 * Follow [@utom](http://twitter.com/utom) on Twitter
-* Email <utombox@gmail.com>
+* Email <moretwo@126.com>
