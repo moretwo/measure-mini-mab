@@ -1,8 +1,18 @@
-# Sketch Measure -mini
+#Measure -mini-mab
 
-###精简版Measure  在Utom 大神的基础上微调了HTML 模版样式 
+###规范标注导出精简版 
 
-来自视觉设计师的 修改版：
+20170320更新 V2.5.1－－－－－－－－－
+
+1. 去除 artboard 缩略图
+2. 修改背景色 #f8f8f8
+3. 修改滚动条样式
+4. 支持artboard 层级缩进（1.1 缩进1级，1.1.1缩进2级）
+
+
+20161220更新 V2.3.6－－－－－－－－－
+
+在Utom 的基础上微调了HTML模版样式,视觉设计师的修改版：
 
 1. 去除头部黑色bar
 2. 隐藏分辨率修改功能
@@ -15,7 +25,7 @@
 
 
 
-以下是原版： 作者 @Utom
+以下是原版： 作者 @Utom －－－－－－－－－
 
 
 Make it fun to create specs for developers and teammates. **Sketch 41.* support**.
